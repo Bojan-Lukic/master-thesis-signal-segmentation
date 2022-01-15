@@ -34,10 +34,10 @@
   <p align="center">
     Analyzing signals from automotive software systems by dividing the signals into homogeneous parts and assessing the found segments.
     <br />
-    <a href="https://github.com/Bojan-Lukic/master-thesis-signal-segmentation/doc"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/Bojan-Lukic/master-thesis-signal-segmentation/tree/main/doc"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/Bojan-Lukic/master-thesis-signal-segmentation/src">View Demo</a>
+    <a href="https://github.com/Bojan-Lukic/master-thesis-signal-segmentation/tree/main/src">View Demo</a>
     ·
     <a href="https://github.com/Bojan-Lukic/master-thesis-signal-segmentation/issues">Report Bug</a>
     ·
