@@ -93,6 +93,8 @@ by applying them to a data set taken out of a real system trace provided by some
 * [Python](https://www.python.org/)
   * packages can be installed using the [requirements.txt](https://github.com/Bojan-Lukic/lstm-multivariate-time-series-prediction/blob/master/requirements.txt) file
 * [Jupyter Notebook](https://jupyter.org/)
+Optionally
+* [MATLAB](https://www.mathworks.com/products/matlab.html)
 
 <br />
 
