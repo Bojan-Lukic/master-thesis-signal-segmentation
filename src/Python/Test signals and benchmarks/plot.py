@@ -10,7 +10,7 @@ def single_plot(A, label_x, label_y, ax=False, color='#1f77b4'):
     else:
         plt.figure(figsize = (12, 8))
     plt.grid()
-    plt.plot(A, color)
+    plt.plot(A, color=color)
     plt.xlabel(label_x, **calibri, fontsize = 18)
     plt.ylabel(label_y, **calibri, fontsize = 18)
     plt.yticks(fontsize = 14)
@@ -41,7 +41,7 @@ def multiplot(results, label_x, label_y, color):
             plt.plot(results[i])
     else:
         for i in range (0, len(results)):
-            plt.plot(results[i], color[i])
+            plt.plot(results[i], color=color[i])
     plt.xlabel(label_x, **calibri, fontsize = 18)
     plt.ylabel(label_y, **calibri, fontsize = 18)
     plt.yticks(fontsize = 14)
@@ -54,7 +54,7 @@ def multiplot_lines(results, label_x, label_y, color, lines, label):
     plt.grid()
     if len(color) == len(results):
         for i in range (0, len(results)):
-            plt.plot(results[i], color[i])
+            plt.plot(results[i], color=color[i])
     else:
         for i in range (0, len(results)):
             plt.plot(results[i])    
